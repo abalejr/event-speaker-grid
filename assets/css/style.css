@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+#speaker-grid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #666;
+}
+#speaker-grid .speaker-info {
+    text-align: center;
+}
+#speaker-grid .speaker-name {
+    color: #0c2434;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+#speaker-grid .speaker-title {
+    font-size: 16px;
+}
+#speaker-grid .speaker-company {
+    color: #f7941d;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+#speaker-grid a {
+    margin-bottom: 40px;
+}
