@@ -28,3 +28,9 @@
 #speaker-grid a {
     margin-bottom: 40px;
 }
+#speaker-grid > a img {
+    transition: all 0.5s ease;
+}
+#speaker-grid > a:hover img {
+    transform: scale(1.055);
+}
